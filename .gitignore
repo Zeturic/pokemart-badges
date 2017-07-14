@@ -1,0 +1,7 @@
+a.exe
+*.gba
+build/*
+*.sgm
+*.dmp
+*.bak
+*.lnk
