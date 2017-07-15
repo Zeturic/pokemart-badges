@@ -16,7 +16,7 @@ typedef u32 (*script_read_word_t) (u8*);
 typedef bool (*checkflag_t) (u16);
 #define checkflag ((checkflag_t) (0x0806E6D0 |1))
 
-extern u16 mart_advancement_level[];
+extern u16 mart_advancement_flags[];
 item_t* select_inventory (void);
 
 #define MART_DYNAMIC 0
