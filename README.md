@@ -2,7 +2,7 @@
 
 Starting in Diamond and Pearl, Poké Marts started adding items to their inventory as you progress through the game and collect Gym Badges. This prevents the issue where the Poké Marts in early game areas are essentially useless by the end of the game.
 
-This gives Fire Red's `pokemart` scripting command the ability to count the number of badges the player has, and select the inventory accordingly.
+This enhances Fire Red's `pokemart` scripting command, allowing it to do the same, without breaking statically set item lists.
 
 ### How do I insert this?
 
