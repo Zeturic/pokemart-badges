@@ -10,11 +10,6 @@ u32 s86_open_shop (u8* pos) {
 }
 
 item_t* select_inventory (void) {
-    #ifdef USE_INITIAL_INVENTORY
-    if (!checkflag(INITIAL_INVENTORY_END_FLAG))
-        return inventory_initial;
-    #endif
-    
     u32 level = 0;
     
     for (u32 i = 0; i < 8; ++i)

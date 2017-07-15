@@ -124,12 +124,3 @@ item_t* inventories[] = {
   inventory_three_badges, inventory_four_badges, inventory_five_badges,
   inventory_six_badges, inventory_seven_badges, inventory_eight_badges 
 };
-
-#ifdef USE_INITIAL_INVENTORY
-item_t inventory_initial[] = {
-    ITEM_POTION,
-    ITEM_ANTIDOTE,
-    ITEM_PARLYZHEAL,
-    ITEM_NONE
-};
-#endif
