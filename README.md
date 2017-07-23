@@ -12,7 +12,7 @@ Drop a Fire Red ROM into the projects root directory, and name it `BPRE0.gba`.
 
 Build everything using `python scripts/build` or `python scripts/build2`, whichever works for you. One of the two should work, as long as you have your environment set up properly.
 
-Then, you can insert it with `python scripts/insert`, `python scripts/insert2`, or `python scripts/insert3`. Again, use whichever works in your environment. By default, the `insert` scripts will insert the code at `0x800000`; if you need to put it somewhere else (because you already put something there), you can choose where you want to insert it with the `--offset` option.
+Then, you can insert it with `python scripts/insert`, `python scripts/insert2`, or `python scripts/insert3`. Again, use whichever works in your environment. By default, the insert scripts will insert the code at `0x800000`; if you need to put it somewhere else (because you already put something there), you can choose where you want to insert it with the `--offset` option.
 
 For example, if you want to insert at `0x900000`, you would convert to decimal (`9437184`), and then use `python scripts/insert --offset 9437184` (again, you can use whichever of the three insert scripts work for your environment). And, yes, converting to decimal is required.
 
