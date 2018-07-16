@@ -10,7 +10,7 @@ Open `inventories.h`. This contains several arrays (`inventory_zero_badges`, `in
 
 ### How do I insert this?
 
-Drop a Fire Red ROM into the projects root directory, and name it `rom.gba`. To configure where to start looking for free space, modify `config.ini`. Then, run "python scripts/makinoa".
+Drop a Fire Red ROM into the projects root directory, and name it `rom.gba`. To configure where to start looking for free space, modify `config.ini`. Then, run `python scripts/makinoa`.
 
 Your output will be in `test.gba`.
 
