@@ -10,7 +10,7 @@ Open `inventories.h`. This contains several arrays (`inventory_zero_badges`, `in
 
 ### How do I insert this?
 
-Drop a Fire Red ROM into the projects root directory, and name it `rom.gba`. To configure where to start looking for free space, modify `config.ini`. Build and insert it with my modified [make.py](https://github.com/Sagiri/pkmn-make). Basically, just run `/path/to/make.py /path/to/bpre/root`.
+Drop a Fire Red ROM into the projects root directory, and name it `rom.gba`. To configure where to start looking for free space, modify `config.ini`. Then, run "python scripts/makinoa".
 
 Your output will be in `test.gba`.
 
