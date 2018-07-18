@@ -5,9 +5,11 @@
 .org free_space
 .importobj "build/src/relocatable.o"
 
-.org 0x0806C3AC
+.org _s86_open_shop_
 ldr r3, =s86_open_shop|1
 bx r3
 .pool
 
 .close
+
+.definelabel _s86_open_shop_, 0x0806C3AC
