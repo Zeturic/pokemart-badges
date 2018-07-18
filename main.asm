@@ -6,9 +6,11 @@
 .importobj "build/src/relocatable.o"
 
 .org _s86_open_shop_
-ldr r3, =s86_open_shop|1
-bx r3
-.pool
+.area 0x14, 0xFF
+      ldr r3, =s86_open_shop|1
+      bx r3
+      .pool
+.endarea
 
 .close
 
