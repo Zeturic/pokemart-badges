@@ -1,9 +1,5 @@
 #pragma once
 
-#include "types.h"
-
-typedef u16 item_t;
-
 #define ITEM_NONE 0x0
 #define ITEM_MASTERBALL 0x1
 #define ITEM_ULTRABALL 0x2

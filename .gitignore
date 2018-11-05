@@ -52,8 +52,9 @@ Temporary Items
 *.bak
 *.sav
 *.sgm
-*.sa1
+*.sa?
 *.lnk
 *.sym
+*.ss?
 
 build

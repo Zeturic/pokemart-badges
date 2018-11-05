@@ -6,13 +6,17 @@ This enhances Fire Red's `pokemart` scripting command, allowing it to do the sam
 
 ### How do I customize this?
 
-Open `inventories.h`. This contains several arrays (`inventory_zero_badges`, `inventory_five_badges`, etc) which correspond to the shop's inventory after a particular number of badges. Set them as you see fit (currently they correspond to HGSS's item list). Basically, they just consist of a list of items, ending in `ITEM_NONE`, so they should be fairly simple to modify.
+Open `inventories.c`. This contains several arrays (`inventory_zero_badges`, `inventory_five_badges`, etc) which correspond to the shop's inventory after a particular number of badges. Set them as you see fit (currently they correspond to HGSS's item list). Basically, they just consist of a list of items, ending in `ITEM_NONE`, so they should be fairly simple to modify.
 
 ### How do I insert this?
 
-Drop a Fire Red ROM into the projects root directory, and name it `rom.gba`. To configure where to start looking for free space, modify `config.ini`. Then, run `python scripts/makinoa`.
+You will need to set an `ARMIPS` environment variable pointing to your `armips.exe`. You also need a `DEVKITARM` environment pointing to devkitARM v45's installation directory (likely `C:\devkitPro\devkitARM`).
 
-Your output will be in `test.gba`.
+Python 3.6 or later is required.
+
+Place your ROM in the project root directory and name it `rom.gba`. Run `python scripts/makinoa`.
+
+Your output is `test.gba`; `rom.gba` will be left unmodified.
 
 ### How do I use this?
 

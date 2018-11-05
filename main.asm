@@ -1,5 +1,7 @@
 .gba
 .thumb
+.include "functions.s"
+
 .open "test.gba", 0x8000000
 
 .org allocation
@@ -15,5 +17,3 @@
 .endarea
 
 .close
-
-.definelabel _s86_open_shop_, 0x0806C3AC

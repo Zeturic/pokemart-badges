@@ -1,7 +1,7 @@
-#include "s86_open_shop.h"
+#include "defines.h"
 
 u32 s86_open_shop (u8* pos) {
-    item_t* itemlist = (item_t*) script_read_word(pos);
+    u16* itemlist = (u16*) script_read_word(pos);
     if (itemlist == MART_DYNAMIC) itemlist = select_inventory();
     
     pokemart_menu(itemlist);
@@ -9,7 +9,7 @@ u32 s86_open_shop (u8* pos) {
     return 1;
 }
 
-item_t* select_inventory (void) {
+u16* select_inventory() {
     u32 level = 0;
     
     for (u32 i = 0; i < 8; ++i)
