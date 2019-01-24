@@ -2,7 +2,7 @@
 .thumb
 .include "functions.s"
 
-.open "test.gba", 0x8000000
+.open "rom.gba", "test.gba", 0x8000000
 
 .org allocation
 .area allocation_size
