@@ -1,4 +1,4 @@
-#include "defines.h"
+#include "global.h"
 
 u32 s86_open_shop (u8* pos) {
     u16* itemlist = (u16*) script_read_word(pos);

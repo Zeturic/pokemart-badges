@@ -1,4 +1,4 @@
-#include "defines.h"
+#include "global.h"
 
 u16 inventory_zero_badges[] = {
     ITEM_POKEBALL,
