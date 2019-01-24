@@ -13,13 +13,8 @@ const u16* select_inventory() {
     u32 level = 0;
     
     for (u32 i = 0; i < 8; ++i)
-        if (checkflag(mart_advancement_flags[i]))
+        if (checkflag(FLAG_FIRST_BADGE + i))
             ++level;
     
     return inventories[level];
 }
-
-// flags for all the badges
-const u16 mart_advancement_flags[] = {
-    0x820, 0x821, 0x822, 0x823, 0x824, 0x825, 0x826, 0x827
-};
