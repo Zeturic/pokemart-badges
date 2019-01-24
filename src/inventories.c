@@ -1,6 +1,6 @@
 #include "global.h"
 
-u16 inventory_zero_badges[] = {
+const u16 inventory_zero_badges[] = {
     ITEM_POKEBALL,
     ITEM_POTION,
     ITEM_ANTIDOTE,
@@ -8,7 +8,7 @@ u16 inventory_zero_badges[] = {
     ITEM_NONE
 };
 
-u16 inventory_one_badge[] = {
+const u16 inventory_one_badge[] = {
     ITEM_POKEBALL,
     ITEM_POTION,
     ITEM_SUPERPOTION,
@@ -23,11 +23,11 @@ u16 inventory_one_badge[] = {
 };
 
 #define inventory_two_badges inventory_one_badge
-/*u16 inventory_two_badges[] = {
+/*const u16 inventory_two_badges[] = {
     ITEM_NONE
 };*/
 
-u16 inventory_three_badges[] = {
+const u16 inventory_three_badges[] = {
     ITEM_POKEBALL,
     ITEM_GREATBALL,
     ITEM_POTION,
@@ -45,11 +45,11 @@ u16 inventory_three_badges[] = {
 };
 
 #define inventory_four_badges inventory_three_badges
-/*u16 inventory_four_badges[] = {
+/*const u16 inventory_four_badges[] = {
     ITEM_NONE
 };*/
 
-u16 inventory_five_badges[] = {
+const u16 inventory_five_badges[] = {
     ITEM_POKEBALL,
     ITEM_GREATBALL,
     ITEM_ULTRABALL,
@@ -70,11 +70,11 @@ u16 inventory_five_badges[] = {
 };
 
 #define inventory_six_badges inventory_five_badges
-/*u16 inventory_six_badges[] = {
+/*const u16 inventory_six_badges[] = {
     ITEM_NONE
 };*/
 
-u16 inventory_seven_badges[] = {
+const u16 inventory_seven_badges[] = {
     ITEM_POKEBALL,
     ITEM_GREATBALL,
     ITEM_ULTRABALL,
@@ -96,7 +96,7 @@ u16 inventory_seven_badges[] = {
     ITEM_NONE
 };
 
-u16 inventory_eight_badges[] = {
+const u16 inventory_eight_badges[] = {
     ITEM_POKEBALL,
     ITEM_GREATBALL,
     ITEM_ULTRABALL,
@@ -119,7 +119,7 @@ u16 inventory_eight_badges[] = {
     ITEM_NONE
 };
 
-u16* inventories[] = {
+const u16* inventories[] = {
   inventory_zero_badges, inventory_one_badge, inventory_two_badges,
   inventory_three_badges, inventory_four_badges, inventory_five_badges,
   inventory_six_badges, inventory_seven_badges, inventory_eight_badges 
